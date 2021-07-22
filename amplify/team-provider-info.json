@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatbot-dev-161028-authRole",
+      "UnauthRoleArn": "arn:aws:cognito-identity:us-east-1:183412928248:identitypool/us-east-1:e7ecbf20-c6de-478b-ab9d-e5ccbfe00b74",
+      "AuthRoleArn": "arn:aws:cognito-identity:us-east-1:183412928248:identitypool/us-east-1:e7ecbf20-c6de-478b-ab9d-e5ccbfe00b74",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chatbot-dev-161028-deployment",
+      "UnauthRoleName": "amplify-chatbot-dev-161028-unauthRole",
+      "StackName": "amplify-chatbot-dev-161028",
+      "StackId": "arn:aws:cloudformation:us-east-1:183412928248:stack/amplify-chatbot-dev-161028/278900d0-e98e-11eb-8bfc-0ae749a35905",
+      "AmplifyAppId": "dy1ca3mu3hexe"
+    },
+    "categories": {
+      "auth": {
+        "cognito8c6b5a15": {}
+      },
+      "interactions": {
+        "lex9de022c4": {
+          "deploymentBucketName": "amplify-chatbot-dev-161028-deployment",
+          "s3Key": "amplify-builds/lex9de022c4-6b48675762796d4a684d-build.zip"
+        }
+      }
+    }
+  }
+}
