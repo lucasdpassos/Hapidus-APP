@@ -104,10 +104,11 @@ class ChatBot extends Component {
 
     render() {
         return (
-            <View style={{flex:1, backgroundColor: '#fff'}}>
-                <GiftedChat messages={this.state.messages} onSend={(message) => this.onSend(message)}
+            <View style={{flex:1}}>
+                <GiftedChat messagesContainerStyle={{backgroundColor: '#00002C'}} messages={this.state.messages} onSend={(message) => this.onSend(message)}
                 onQuickReply={(quickReply) => this.onQuickReply(quickReply)}
                 user={{_id: 1 }}
+                
                 />
             </View>
         )
